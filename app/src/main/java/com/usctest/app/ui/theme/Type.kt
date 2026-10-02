@@ -2,13 +2,29 @@ package com.usctest.app.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.usctest.app.R
 
 // Matches the Stitch "US Citizenship Test — iOS Native" type scale (Inter stand-in for SF Pro):
 // confident bold headlines paired with calmer regular-weight body text, generous line-height.
-private val AppFontFamily = FontFamily.SansSerif
+// InterVariable.ttf's 'wght' axis is set per weight (minSdk 26 supports variable font axes).
+@OptIn(androidx.compose.ui.text.ExperimentalTextApi::class)
+private fun interWeight(weight: FontWeight) = Font(
+    resId = R.font.inter_variable,
+    weight = weight,
+    variationSettings = FontVariation.Settings(FontVariation.weight(weight.weight)),
+)
+
+private val AppFontFamily = FontFamily(
+    interWeight(FontWeight.Normal),
+    interWeight(FontWeight.Medium),
+    interWeight(FontWeight.SemiBold),
+    interWeight(FontWeight.Bold),
+)
 
 val AppTypography = Typography(
     displayLarge = TextStyle(
