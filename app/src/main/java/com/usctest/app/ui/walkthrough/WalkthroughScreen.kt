@@ -231,7 +231,10 @@ private fun RecallModePage() {
             color = MaterialTheme.colorScheme.surface,
             border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)),
         ) {
-            Column(modifier = Modifier.padding(20.dp).fillMaxSize(), verticalArrangement = Arrangement.SpaceBetween) {
+            Column(
+                modifier = Modifier.padding(20.dp).fillMaxSize(),
+                verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
+            ) {
                 Text(
                     text = SAMPLE_QUESTION,
                     style = MaterialTheme.typography.titleMedium,
