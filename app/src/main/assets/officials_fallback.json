@@ -1,0 +1,1154 @@
+{
+  "updatedAt": "2026-09-19T00:00:00Z",
+  "states": [
+    {
+      "stateName": "Alaska",
+      "stateCode": "AK",
+      "capital": "Juneau",
+      "governor": "Mike Dunleavy",
+      "senators": [
+        "Lisa Murkowski",
+        "Dan Sullivan"
+      ],
+      "representatives": [
+        "Nicholas J. Begich III"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Alabama",
+      "stateCode": "AL",
+      "capital": "Montgomery",
+      "governor": "Kay Ivey",
+      "senators": [
+        "Tommy Tuberville",
+        "Katie Boyd Britt"
+      ],
+      "representatives": [
+        "Barry Moore",
+        "Shomari Figures",
+        "Mike Rogers",
+        "Robert B. Aderholt",
+        "Dale W. Strong",
+        "Gary J. Palmer",
+        "Terri A. Sewell"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Arkansas",
+      "stateCode": "AR",
+      "capital": "Little Rock",
+      "governor": "Sarah Huckabee Sanders",
+      "senators": [
+        "John Boozman",
+        "Tom Cotton"
+      ],
+      "representatives": [
+        "Eric A. \"Rick\" Crawford",
+        "J. French Hill",
+        "Steve Womack",
+        "Bruce Westerman"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "American Samoa",
+      "stateCode": "AS",
+      "capital": "Pago Pago",
+      "governor": "Pula Nikolao Pula",
+      "senators": [],
+      "representatives": [
+        "Aumua Amata Coleman Radewagen"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Arizona",
+      "stateCode": "AZ",
+      "capital": "Phoenix",
+      "governor": "Katie Hobbs",
+      "senators": [
+        "Ruben Gallego",
+        "Mark Kelly"
+      ],
+      "representatives": [
+        "David Schweikert",
+        "Elijah Crane",
+        "Yassamin Ansari",
+        "Greg Stanton",
+        "Andy Biggs",
+        "Juan Ciscomani",
+        "Adelita S. Grijalva",
+        "Abraham J. Hamadeh",
+        "Paul A. Gosar"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "California",
+      "stateCode": "CA",
+      "capital": "Sacramento",
+      "governor": "Gavin Newsom",
+      "senators": [
+        "Adam B. Schiff",
+        "Alex Padilla"
+      ],
+      "representatives": [
+        "James Gallagher",
+        "Jared Huffman",
+        "Kevin Kiley",
+        "Mike Thompson",
+        "Tom McClintock",
+        "Ami Bera",
+        "Doris O. Matsui",
+        "John Garamendi",
+        "Josh Harder",
+        "Mark DeSaulnier",
+        "Nancy Pelosi",
+        "Lateefah Simon",
+        "Adam Gray",
+        "Aisha Wahab",
+        "Kevin Mullin",
+        "Sam T. Liccardo",
+        "Ro Khanna",
+        "Zoe Lofgren",
+        "Jimmy Panetta",
+        "Vince Fong",
+        "Jim Costa",
+        "David G. Valadao",
+        "Jay Obernolte",
+        "Salud O. Carbajal",
+        "Raul Ruiz",
+        "Julia Brownley",
+        "George Whitesides",
+        "Judy Chu",
+        "Luz M. Rivas",
+        "Laura Friedman",
+        "Gilbert Ray Cisneros, Jr.",
+        "Brad Sherman",
+        "Pete Aguilar",
+        "Jimmy Gomez",
+        "Norma J. Torres",
+        "Ted Lieu",
+        "Sydney Kamlager-Dove",
+        "Linda T. Sánchez",
+        "Mark Takano",
+        "Young Kim",
+        "Ken Calvert",
+        "Robert Garcia",
+        "Maxine Waters",
+        "Nanette Diaz Barragán",
+        "Derek Tran",
+        "J. Luis Correa",
+        "Dave Min",
+        "Darrell Issa",
+        "Mike Levin",
+        "Scott H. Peters",
+        "Sara Jacobs",
+        "Juan Vargas"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Colorado",
+      "stateCode": "CO",
+      "capital": "Denver",
+      "governor": "Jared Polis",
+      "senators": [
+        "Michael F. Bennet",
+        "John W. Hickenlooper"
+      ],
+      "representatives": [
+        "Diana DeGette",
+        "Joe Neguse",
+        "Jeff Hurd",
+        "Lauren Boebert",
+        "Jeff Crank",
+        "Jason Crow",
+        "Brittany Pettersen",
+        "Gabe Evans"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Connecticut",
+      "stateCode": "CT",
+      "capital": "Hartford",
+      "governor": "Ned Lamont",
+      "senators": [
+        "Richard Blumenthal",
+        "Christopher Murphy"
+      ],
+      "representatives": [
+        "John B. Larson",
+        "Joe Courtney",
+        "Rosa L. DeLauro",
+        "James A. Himes",
+        "Jahana Hayes"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "District of Columbia",
+      "stateCode": "DC",
+      "capital": "Washington, D.C. is not a state and does not have a capital",
+      "governor": "Muriel Bowser (Mayor)",
+      "senators": [],
+      "representatives": [
+        "Eleanor Holmes Norton"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Delaware",
+      "stateCode": "DE",
+      "capital": "Dover",
+      "governor": "Matt Meyer",
+      "senators": [
+        "Christopher A. Coons",
+        "Lisa Blunt Rochester"
+      ],
+      "representatives": [
+        "Sarah McBride"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Florida",
+      "stateCode": "FL",
+      "capital": "Tallahassee",
+      "governor": "Ron DeSantis",
+      "senators": [
+        "Rick Scott",
+        "Ashley Moody"
+      ],
+      "representatives": [
+        "Jimmy Patronis",
+        "Neal P. Dunn",
+        "Kat Cammack",
+        "Aaron Bean",
+        "John H. Rutherford",
+        "Randy Fine",
+        "Cory Mills",
+        "Mike Haridopolos",
+        "Darren Soto",
+        "Maxwell Frost",
+        "Daniel Webster",
+        "Gus M. Bilirakis",
+        "Anna Paulina Luna",
+        "Kathy Castor",
+        "Laurel M. Lee",
+        "Vern Buchanan",
+        "W. Gregory Steube",
+        "Scott Franklin",
+        "Byron Donalds",
+        "Brian J. Mast",
+        "Lois Frankel",
+        "Jared Moskowitz",
+        "Frederica S. Wilson",
+        "Debbie Wasserman Schultz",
+        "Mario Diaz-Balart",
+        "Maria Elvira Salazar",
+        "Carlos A. Gimenez"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Georgia",
+      "stateCode": "GA",
+      "capital": "Atlanta",
+      "governor": "Brian Kemp",
+      "senators": [
+        "Jon Ossoff",
+        "Raphael G. Warnock"
+      ],
+      "representatives": [
+        "Earl L. \"Buddy\" Carter",
+        "Sanford D. Bishop, Jr.",
+        "Brian Jack",
+        "Henry C. \"Hank\" Johnson, Jr.",
+        "Nikema Williams",
+        "Lucy McBath",
+        "Richard McCormick",
+        "Austin Scott",
+        "Andrew S. Clyde",
+        "Mike Collins",
+        "Barry Loudermilk",
+        "Rick W. Allen",
+        "Everton Blair Jr.",
+        "Clay Fuller"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Guam",
+      "stateCode": "GU",
+      "capital": "Hagatna",
+      "governor": "Lou Leon Guerrero",
+      "senators": [],
+      "representatives": [
+        "James C. Moylan"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Hawaii",
+      "stateCode": "HI",
+      "capital": "Honolulu",
+      "governor": "Josh Green",
+      "senators": [
+        "Mazie K. Hirono",
+        "Brian Schatz"
+      ],
+      "representatives": [
+        "Ed Case",
+        "Jill N. Tokuda"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Iowa",
+      "stateCode": "IA",
+      "capital": "Des Moines",
+      "governor": "Kim Reynolds",
+      "senators": [
+        "Chuck Grassley",
+        "Joni Ernst"
+      ],
+      "representatives": [
+        "Mariannette Miller-Meeks",
+        "Ashley Hinson",
+        "Zachary Nunn",
+        "Randy Feenstra"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Idaho",
+      "stateCode": "ID",
+      "capital": "Boise",
+      "governor": "Brad Little",
+      "senators": [
+        "James E. Risch",
+        "Mike Crapo"
+      ],
+      "representatives": [
+        "Russ Fulcher",
+        "Michael K. Simpson"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Illinois",
+      "stateCode": "IL",
+      "capital": "Springfield",
+      "governor": "JB Pritzker",
+      "senators": [
+        "Richard J. Durbin",
+        "Tammy Duckworth"
+      ],
+      "representatives": [
+        "Jonathan L. Jackson",
+        "Robin L. Kelly",
+        "Delia C. Ramirez",
+        "Jesús G. \"Chuy\" García",
+        "Mike Quigley",
+        "Sean Casten",
+        "Danny K. Davis",
+        "Raja Krishnamoorthi",
+        "Janice D. Schakowsky",
+        "Bradley Scott Schneider",
+        "Bill Foster",
+        "Mike Bost",
+        "Nikki Budzinski",
+        "Lauren Underwood",
+        "Mary E. Miller",
+        "Darin LaHood",
+        "Eric Sorensen"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Indiana",
+      "stateCode": "IN",
+      "capital": "Indianapolis",
+      "governor": "Mike Braun",
+      "senators": [
+        "Todd Young",
+        "Jim Banks"
+      ],
+      "representatives": [
+        "Frank J. Mrvan",
+        "Rudy Yakym III",
+        "Marlin A. Stutzman",
+        "James R. Baird",
+        "Victoria Spartz",
+        "Jefferson Shreve",
+        "André Carson",
+        "Mark B. Messmer",
+        "Erin Houchin"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Kansas",
+      "stateCode": "KS",
+      "capital": "Topeka",
+      "governor": "Laura Kelly",
+      "senators": [
+        "Jerry Moran",
+        "Roger Marshall"
+      ],
+      "representatives": [
+        "Tracey Mann",
+        "Derek Schmidt",
+        "Sharice Davids",
+        "Ron Estes"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Kentucky",
+      "stateCode": "KY",
+      "capital": "Frankfort",
+      "governor": "Andy Beshear",
+      "senators": [
+        "Mitch McConnell",
+        "Rand Paul"
+      ],
+      "representatives": [
+        "James Comer",
+        "Brett Guthrie",
+        "Morgan McGarvey",
+        "Thomas Massie",
+        "Harold Rogers",
+        "Andy Barr"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Louisiana",
+      "stateCode": "LA",
+      "capital": "Baton Rouge",
+      "governor": "Jeff Landry",
+      "senators": [
+        "Bill Cassidy",
+        "John Kennedy"
+      ],
+      "representatives": [
+        "Steve Scalise",
+        "Troy A. Carter",
+        "Clay Higgins",
+        "Mike Johnson",
+        "Julia Letlow",
+        "Cleo Fields"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Massachusetts",
+      "stateCode": "MA",
+      "capital": "Boston",
+      "governor": "Maura Healey",
+      "senators": [
+        "Edward J. Markey",
+        "Elizabeth Warren"
+      ],
+      "representatives": [
+        "Richard E. Neal",
+        "James P. McGovern",
+        "Lori Trahan",
+        "Jake Auchincloss",
+        "Katherine M. Clark",
+        "Seth Moulton",
+        "Ayanna Pressley",
+        "Stephen F. Lynch",
+        "William R. Keating"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Maryland",
+      "stateCode": "MD",
+      "capital": "Annapolis",
+      "governor": "Wes Moore",
+      "senators": [
+        "Chris Van Hollen",
+        "Angela D. Alsobrooks"
+      ],
+      "representatives": [
+        "Andy Harris",
+        "Johnny Olszewski, Jr.",
+        "Sarah Elfreth",
+        "Glenn Ivey",
+        "Steny H. Hoyer",
+        "April McClain Delaney",
+        "Kweisi Mfume",
+        "Jamie Raskin"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Maine",
+      "stateCode": "ME",
+      "capital": "Augusta",
+      "governor": "Janet Mills",
+      "senators": [
+        "Susan M. Collins",
+        "Angus S. King, Jr."
+      ],
+      "representatives": [
+        "Chellie Pingree",
+        "Jared F. Golden"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Michigan",
+      "stateCode": "MI",
+      "capital": "Lansing",
+      "governor": "Gretchen Whitmer",
+      "senators": [
+        "Gary C. Peters",
+        "Elissa Slotkin"
+      ],
+      "representatives": [
+        "Jack Bergman",
+        "John R. Moolenaar",
+        "Hillary J. Scholten",
+        "Bill Huizenga",
+        "Tim Walberg",
+        "Debbie Dingell",
+        "Tom Barrett",
+        "Kristen McDonald Rivet",
+        "Lisa C. McClain",
+        "John James",
+        "Haley M. Stevens",
+        "Rashida Tlaib",
+        "Shri Thanedar"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Minnesota",
+      "stateCode": "MN",
+      "capital": "Saint Paul",
+      "governor": "Tim Walz",
+      "senators": [
+        "Amy Klobuchar",
+        "Tina Smith"
+      ],
+      "representatives": [
+        "Brad Finstad",
+        "Angie Craig",
+        "Kelly Morrison",
+        "Betty McCollum",
+        "Ilhan Omar",
+        "Tom Emmer",
+        "Michelle Fischbach",
+        "Pete Stauber"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Missouri",
+      "stateCode": "MO",
+      "capital": "Jefferson City",
+      "governor": "Mike Kehoe",
+      "senators": [
+        "Josh Hawley",
+        "Eric Schmitt"
+      ],
+      "representatives": [
+        "Wesley Bell",
+        "Ann Wagner",
+        "Robert F. Onder, Jr.",
+        "Mark Alford",
+        "Emanuel Cleaver",
+        "Sam Graves",
+        "Eric Burlison",
+        "Jason Smith"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Northern Mariana Islands",
+      "stateCode": "MP",
+      "capital": "Saipan",
+      "governor": "David M. Apatang",
+      "senators": [],
+      "representatives": [
+        "Kimberlyn King-Hinds"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Mississippi",
+      "stateCode": "MS",
+      "capital": "Jackson",
+      "governor": "Tate Reeves",
+      "senators": [
+        "Roger F. Wicker",
+        "Cindy Hyde-Smith"
+      ],
+      "representatives": [
+        "Trent Kelly",
+        "Bennie G. Thompson",
+        "Michael Guest",
+        "Mike Ezell"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Montana",
+      "stateCode": "MT",
+      "capital": "Helena",
+      "governor": "Greg Gianforte",
+      "senators": [
+        "Steve Daines",
+        "Tim Sheehy"
+      ],
+      "representatives": [
+        "Ryan K. Zinke",
+        "Troy Downing"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "North Carolina",
+      "stateCode": "NC",
+      "capital": "Raleigh",
+      "governor": "Josh Stein",
+      "senators": [
+        "Thom Tillis",
+        "Ted Budd"
+      ],
+      "representatives": [
+        "Donald G. Davis",
+        "Deborah K. Ross",
+        "Gregory F. Murphy",
+        "Valerie P. Foushee",
+        "Virginia Foxx",
+        "Addison P. McDowell",
+        "David Rouzer",
+        "Mark Harris",
+        "Richard Hudson",
+        "Pat Harrigan",
+        "Chuck Edwards",
+        "Alma S. Adams",
+        "Brad Knott",
+        "Tim Moore"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "North Dakota",
+      "stateCode": "ND",
+      "capital": "Bismarck",
+      "governor": "Kelly Armstrong",
+      "senators": [
+        "John Hoeven",
+        "Kevin Cramer"
+      ],
+      "representatives": [
+        "Julie Fedorchak"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Nebraska",
+      "stateCode": "NE",
+      "capital": "Lincoln",
+      "governor": "Jim Pillen",
+      "senators": [
+        "Deb Fischer",
+        "Pete Ricketts"
+      ],
+      "representatives": [
+        "Mike Flood",
+        "Don Bacon",
+        "Adrian Smith"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "New Hampshire",
+      "stateCode": "NH",
+      "capital": "Concord",
+      "governor": "Kelly Ayotte",
+      "senators": [
+        "Jeanne Shaheen",
+        "Margaret Wood Hassan"
+      ],
+      "representatives": [
+        "Chris Pappas",
+        "Maggie Goodlander"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "New Jersey",
+      "stateCode": "NJ",
+      "capital": "Trenton",
+      "governor": "Mikie Sherrill",
+      "senators": [
+        "Cory A. Booker",
+        "Andy Kim"
+      ],
+      "representatives": [
+        "Donald Norcross",
+        "Jefferson Van Drew",
+        "Herbert C. Conaway, Jr.",
+        "Christopher H. Smith",
+        "Josh Gottheimer",
+        "Frank Pallone, Jr.",
+        "Thomas H. Kean, Jr.",
+        "Robert Menendez",
+        "Nellie Pou",
+        "LaMonica McIver",
+        "Analilia Mejia",
+        "Bonnie Watson Coleman"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "New Mexico",
+      "stateCode": "NM",
+      "capital": "Santa Fe",
+      "governor": "Michelle Lujan Grisham",
+      "senators": [
+        "Martin Heinrich",
+        "Ben Ray Luján"
+      ],
+      "representatives": [
+        "Melanie A. Stansbury",
+        "Gabe Vasquez",
+        "Teresa Leger Fernandez"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Nevada",
+      "stateCode": "NV",
+      "capital": "Carson City",
+      "governor": "Joe Lombardo",
+      "senators": [
+        "Catherine Cortez Masto",
+        "Jacky Rosen"
+      ],
+      "representatives": [
+        "Dina Titus",
+        "Mark E. Amodei",
+        "Susie Lee",
+        "Steven Horsford"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "New York",
+      "stateCode": "NY",
+      "capital": "Albany",
+      "governor": "Kathy Hochul",
+      "senators": [
+        "Kirsten E. Gillibrand",
+        "Charles E. Schumer"
+      ],
+      "representatives": [
+        "Nick LaLota",
+        "Andrew R. Garbarino",
+        "Thomas R. Suozzi",
+        "Laura Gillen",
+        "Gregory W. Meeks",
+        "Grace Meng",
+        "Nydia M. Velázquez",
+        "Hakeem S. Jeffries",
+        "Yvette D. Clarke",
+        "Daniel S. Goldman",
+        "Nicole Malliotakis",
+        "Jerrold Nadler",
+        "Adriano Espaillat",
+        "Alexandria Ocasio-Cortez",
+        "Ritchie Torres",
+        "George Latimer",
+        "Michael Lawler",
+        "Patrick Ryan",
+        "Josh Riley",
+        "Paul Tonko",
+        "Elise M. Stefanik",
+        "John W. Mannion",
+        "Nicholas A. Langworthy",
+        "Claudia Tenney",
+        "Joseph D. Morelle",
+        "Timothy M. Kennedy"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Ohio",
+      "stateCode": "OH",
+      "capital": "Columbus",
+      "governor": "Mike DeWine",
+      "senators": [
+        "Bernie Moreno",
+        "Jon Husted"
+      ],
+      "representatives": [
+        "Greg Landsman",
+        "David J. Taylor",
+        "Joyce Beatty",
+        "Jim Jordan",
+        "Robert E. Latta",
+        "Michael A. Rulli",
+        "Max L. Miller",
+        "Warren Davidson",
+        "Marcy Kaptur",
+        "Michael R. Turner",
+        "Shontel M. Brown",
+        "Troy Balderson",
+        "Emilia Strong Sykes",
+        "David P. Joyce",
+        "Mike Carey"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Oklahoma",
+      "stateCode": "OK",
+      "capital": "Oklahoma City",
+      "governor": "Kevin Stitt",
+      "senators": [
+        "James Lankford",
+        "Alan Armstrong"
+      ],
+      "representatives": [
+        "Kevin Hern",
+        "Josh Brecheen",
+        "Frank D. Lucas",
+        "Tom Cole",
+        "Stephanie I. Bice"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Oregon",
+      "stateCode": "OR",
+      "capital": "Salem",
+      "governor": "Tina Kotek",
+      "senators": [
+        "Jeff Merkley",
+        "Ron Wyden"
+      ],
+      "representatives": [
+        "Suzanne Bonamici",
+        "Cliff Bentz",
+        "Maxine Dexter",
+        "Val T. Hoyle",
+        "Janelle S. Bynum",
+        "Andrea Salinas"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Pennsylvania",
+      "stateCode": "PA",
+      "capital": "Harrisburg",
+      "governor": "Josh Shapiro",
+      "senators": [
+        "John Fetterman",
+        "David McCormick"
+      ],
+      "representatives": [
+        "Brian K. Fitzpatrick",
+        "Brendan F. Boyle",
+        "Dwight Evans",
+        "Madeleine Dean",
+        "Mary Gay Scanlon",
+        "Chrissy Houlahan",
+        "Ryan Mackenzie",
+        "Robert P. Bresnahan, Jr.",
+        "Daniel Meuser",
+        "Scott Perry",
+        "Lloyd Smucker",
+        "Summer L. Lee",
+        "John Joyce",
+        "Guy Reschenthaler",
+        "Glenn Thompson",
+        "Mike Kelly",
+        "Christopher R. Deluzio"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Puerto Rico",
+      "stateCode": "PR",
+      "capital": "San Juan",
+      "governor": "Jenniffer Gonzalez-Colon",
+      "senators": [],
+      "representatives": [
+        "Pablo José Hernández"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Rhode Island",
+      "stateCode": "RI",
+      "capital": "Providence",
+      "governor": "Dan McKee",
+      "senators": [
+        "Sheldon Whitehouse",
+        "Jack Reed"
+      ],
+      "representatives": [
+        "Gabe Amo",
+        "Seth Magaziner"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "South Carolina",
+      "stateCode": "SC",
+      "capital": "Columbia",
+      "governor": "Henry McMaster",
+      "senators": [
+        "Tim Scott",
+        "Darline Graham"
+      ],
+      "representatives": [
+        "Nancy Mace",
+        "Joe Wilson",
+        "Sheri Biggs",
+        "William R. Timmons IV",
+        "Ralph Norman",
+        "James E. Clyburn",
+        "Russell Fry"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "South Dakota",
+      "stateCode": "SD",
+      "capital": "Pierre",
+      "governor": "Larry Rhoden",
+      "senators": [
+        "John Thune",
+        "Mike Rounds"
+      ],
+      "representatives": [
+        "Dusty Johnson"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Tennessee",
+      "stateCode": "TN",
+      "capital": "Nashville",
+      "governor": "Bill Lee",
+      "senators": [
+        "Marsha Blackburn",
+        "Bill Hagerty"
+      ],
+      "representatives": [
+        "Diana Harshbarger",
+        "Tim Burchett",
+        "Charles J. \"Chuck\" Fleischmann",
+        "Scott DesJarlais",
+        "Andrew Ogles",
+        "John W. Rose",
+        "Matt Van Epps",
+        "David Kustoff",
+        "Steve Cohen"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Texas",
+      "stateCode": "TX",
+      "capital": "Austin",
+      "governor": "Greg Abbott",
+      "senators": [
+        "John Cornyn",
+        "Ted Cruz"
+      ],
+      "representatives": [
+        "Nathaniel Moran",
+        "Dan Crenshaw",
+        "Keith Self",
+        "Pat Fallon",
+        "Lance Gooden",
+        "Jake Ellzey",
+        "Lizzie Fletcher",
+        "Morgan Luttrell",
+        "Al Green",
+        "Michael T. McCaul",
+        "August Pfluger",
+        "Craig A. Goldman",
+        "Ronny Jackson",
+        "Randy K. Weber, Sr.",
+        "Monica De La Cruz",
+        "Veronica Escobar",
+        "Pete Sessions",
+        "Christian D. Menefee",
+        "Jodey C. Arrington",
+        "Joaquin Castro",
+        "Chip Roy",
+        "Troy E. Nehls",
+        "Beth Van Duyne",
+        "Roger Williams",
+        "Brandon Gill",
+        "Michael Cloud",
+        "Henry Cuellar",
+        "Sylvia R. Garcia",
+        "Jasmine Crockett",
+        "John R. Carter",
+        "Julie Johnson",
+        "Marc A. Veasey",
+        "Vicente Gonzalez",
+        "Greg Casar",
+        "Brian Babin",
+        "Lloyd Doggett",
+        "Wesley Hunt"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Utah",
+      "stateCode": "UT",
+      "capital": "Salt Lake City",
+      "governor": "Spencer Cox",
+      "senators": [
+        "Mike Lee",
+        "John R. Curtis"
+      ],
+      "representatives": [
+        "Blake D. Moore",
+        "Celeste Maloy",
+        "Mike Kennedy",
+        "Burgess Owens"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Virginia",
+      "stateCode": "VA",
+      "capital": "Richmond",
+      "governor": "Abigail Spanberger",
+      "senators": [
+        "Mark R. Warner",
+        "Tim Kaine"
+      ],
+      "representatives": [
+        "Robert J. Wittman",
+        "Jennifer A. Kiggans",
+        "Robert C. \"Bobby\" Scott",
+        "Jennifer L. McClellan",
+        "John J. McGuire III",
+        "Ben Cline",
+        "Eugene Simon Vindman",
+        "Donald S. Beyer, Jr.",
+        "H. Morgan Griffith",
+        "Suhas Subramanyam",
+        "James R. Walkinshaw"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "U.S. Virgin Islands",
+      "stateCode": "VI",
+      "capital": "Charlotte Amalie",
+      "governor": "Albert Bryan Jr.",
+      "senators": [],
+      "representatives": [
+        "Stacey E. Plaskett"
+      ],
+      "hasNoVotingSenators": true
+    },
+    {
+      "stateName": "Vermont",
+      "stateCode": "VT",
+      "capital": "Montpelier",
+      "governor": "Phil Scott",
+      "senators": [
+        "Bernard Sanders",
+        "Peter Welch"
+      ],
+      "representatives": [
+        "Becca Balint"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Washington",
+      "stateCode": "WA",
+      "capital": "Olympia",
+      "governor": "Bob Ferguson",
+      "senators": [
+        "Maria Cantwell",
+        "Patty Murray"
+      ],
+      "representatives": [
+        "Suzan K. DelBene",
+        "Rick Larsen",
+        "Marie Gluesenkamp Perez",
+        "Dan Newhouse",
+        "Michael Baumgartner",
+        "Emily Randall",
+        "Pramila Jayapal",
+        "Kim Schrier",
+        "Adam Smith",
+        "Marilyn Strickland"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Wisconsin",
+      "stateCode": "WI",
+      "capital": "Madison",
+      "governor": "Tony Evers",
+      "senators": [
+        "Tammy Baldwin",
+        "Ron Johnson"
+      ],
+      "representatives": [
+        "Bryan Steil",
+        "Mark Pocan",
+        "Derrick Van Orden",
+        "Gwen Moore",
+        "Scott Fitzgerald",
+        "Glenn Grothman",
+        "Thomas P. Tiffany",
+        "Tony Wied"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "West Virginia",
+      "stateCode": "WV",
+      "capital": "Charleston",
+      "governor": "Patrick Morrisey",
+      "senators": [
+        "Shelley Moore Capito",
+        "James C. Justice"
+      ],
+      "representatives": [
+        "Carol D. Miller",
+        "Riley M. Moore"
+      ],
+      "hasNoVotingSenators": false
+    },
+    {
+      "stateName": "Wyoming",
+      "stateCode": "WY",
+      "capital": "Cheyenne",
+      "governor": "Mark Gordon",
+      "senators": [
+        "John Barrasso",
+        "Cynthia M. Lummis"
+      ],
+      "representatives": [
+        "Harriet M. Hageman"
+      ],
+      "hasNoVotingSenators": false
+    }
+  ]
+}

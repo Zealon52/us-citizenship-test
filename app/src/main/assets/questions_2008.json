@@ -1,0 +1,1454 @@
+[
+  {
+    "id": 1,
+    "text": "What is the supreme law of the land?",
+    "acceptableAnswers": [
+      { "canonical": "the Constitution", "variants": ["Constitution"], "keywords": ["constitution"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DOCUMENT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy",
+    "distractors": ["the Declaration of Independence", "the Bill of Rights", "the Federalist Papers"]
+  },
+  {
+    "id": 2,
+    "text": "What does the Constitution do?",
+    "acceptableAnswers": [
+      { "canonical": "sets up the government", "variants": ["sets up the govt"], "keywords": ["sets", "up", "government"] },
+      { "canonical": "defines the government", "variants": [], "keywords": ["defines", "government"] },
+      { "canonical": "protects basic rights of Americans", "variants": ["protects the rights of Americans"], "keywords": ["protects", "rights"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 3,
+    "text": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+    "acceptableAnswers": [
+      { "canonical": "We the People", "variants": [], "keywords": ["we", "the", "people"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 4,
+    "text": "What is an amendment?",
+    "acceptableAnswers": [
+      { "canonical": "a change (to the Constitution)", "variants": ["a change"], "keywords": ["change"] },
+      { "canonical": "an addition (to the Constitution)", "variants": ["an addition"], "keywords": ["addition"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 5,
+    "text": "What do we call the first ten amendments to the Constitution?",
+    "acceptableAnswers": [
+      { "canonical": "the Bill of Rights", "variants": ["Bill of Rights"], "keywords": ["bill", "rights"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DOCUMENT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy",
+    "overlapsWith": [6]
+  },
+  {
+    "id": 6,
+    "text": "What is one right or freedom from the First Amendment?",
+    "acceptableAnswers": [
+      { "canonical": "speech", "variants": ["freedom of speech"], "keywords": ["speech"] },
+      { "canonical": "religion", "variants": ["freedom of religion"], "keywords": ["religion"] },
+      { "canonical": "assembly", "variants": ["freedom of assembly"], "keywords": ["assembly"] },
+      { "canonical": "press", "variants": ["freedom of the press"], "keywords": ["press"] },
+      { "canonical": "petition the government", "variants": [], "keywords": ["petition"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "RIGHT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy",
+    "isEssential": true,
+    "overlapsWith": [5, 51]
+  },
+  {
+    "id": 7,
+    "text": "How many amendments does the Constitution have?",
+    "acceptableAnswers": [
+      { "canonical": "twenty-seven (27)", "variants": ["27", "twenty-seven"], "keywords": ["twenty-seven", "27"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 8,
+    "text": "What did the Declaration of Independence do?",
+    "acceptableAnswers": [
+      { "canonical": "announced our independence (from Great Britain)", "variants": ["announced our independence"], "keywords": ["announced", "independence"] },
+      { "canonical": "declared our independence (from Great Britain)", "variants": ["declared our independence"], "keywords": ["declared", "independence"] },
+      { "canonical": "said that the United States is free (from Great Britain)", "variants": ["said the United States is free"], "keywords": ["free", "britain"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DOCUMENT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 9,
+    "text": "What are two rights in the Declaration of Independence?",
+    "acceptableAnswers": [
+      { "canonical": "life", "variants": [], "keywords": ["life"] },
+      { "canonical": "liberty", "variants": [], "keywords": ["liberty"] },
+      { "canonical": "the pursuit of happiness", "variants": ["pursuit of happiness"], "keywords": ["pursuit", "happiness"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "N_OF",
+    "answerType": "RIGHT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 10,
+    "text": "What is freedom of religion?",
+    "acceptableAnswers": [
+      { "canonical": "You can practice any religion, or not practice a religion.", "variants": ["you can practice any religion or none at all"], "keywords": ["practice", "religion"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 11,
+    "text": "What is the economic system in the United States?",
+    "acceptableAnswers": [
+      { "canonical": "capitalist economy", "variants": ["capitalism"], "keywords": ["capitalist", "capitalism"] },
+      { "canonical": "market economy", "variants": [], "keywords": ["market", "economy"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy",
+    "isEssential": true
+  },
+  {
+    "id": 12,
+    "text": "What is the \"rule of law\"?",
+    "acceptableAnswers": [
+      { "canonical": "Everyone must follow the law.", "variants": [], "keywords": ["everyone", "follow", "law"] },
+      { "canonical": "Leaders must obey the law.", "variants": [], "keywords": ["leaders", "obey", "law"] },
+      { "canonical": "Government must obey the law.", "variants": [], "keywords": ["government", "obey", "law"] },
+      { "canonical": "No one is above the law.", "variants": [], "keywords": ["no", "one", "above", "law"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Principles of American Democracy"
+  },
+  {
+    "id": 13,
+    "text": "Name one branch or part of the government.",
+    "acceptableAnswers": [
+      { "canonical": "Congress", "variants": [], "keywords": ["congress"] },
+      { "canonical": "legislative", "variants": [], "keywords": ["legislative"] },
+      { "canonical": "President", "variants": [], "keywords": ["president"] },
+      { "canonical": "executive", "variants": [], "keywords": ["executive"] },
+      { "canonical": "the courts", "variants": ["courts"], "keywords": ["courts"] },
+      { "canonical": "judicial", "variants": [], "keywords": ["judicial"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "BRANCH",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isEssential": true,
+    "distractors": ["the police", "the media", "the United Nations"]
+  },
+  {
+    "id": 14,
+    "text": "What stops one branch of government from becoming too powerful?",
+    "acceptableAnswers": [
+      { "canonical": "checks and balances", "variants": [], "keywords": ["checks", "balances"] },
+      { "canonical": "separation of powers", "variants": [], "keywords": ["separation", "powers"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 15,
+    "text": "Who is in charge of the executive branch?",
+    "acceptableAnswers": [
+      { "canonical": "the President", "variants": ["President"], "keywords": ["president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [32, 33, 34],
+    "distractors": ["the Vice President", "the Speaker of the House", "the Chief Justice"]
+  },
+  {
+    "id": 16,
+    "text": "Who makes federal laws?",
+    "acceptableAnswers": [
+      { "canonical": "Congress", "variants": [], "keywords": ["congress"] },
+      { "canonical": "Senate and House (of Representatives)", "variants": ["Senate and House"], "keywords": ["senate", "house"] },
+      { "canonical": "(U.S. or national) legislature", "variants": ["the legislature", "national legislature"], "keywords": ["legislature"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "BRANCH",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 17,
+    "text": "What are the two parts of the U.S. Congress?",
+    "acceptableAnswers": [
+      { "canonical": "the Senate", "variants": ["Senate"], "keywords": ["senate"] },
+      { "canonical": "the House (of Representatives)", "variants": ["House", "House of Representatives"], "keywords": ["house"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "ALL_OF",
+    "answerType": "BRANCH",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isEssential": true,
+    "distractors": ["the Supreme Court", "the Cabinet", "the Electoral College"]
+  },
+  {
+    "id": 18,
+    "text": "How many U.S. Senators are there?",
+    "acceptableAnswers": [
+      { "canonical": "one hundred (100)", "variants": ["100", "one hundred"], "keywords": ["hundred", "100"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [21]
+  },
+  {
+    "id": 19,
+    "text": "We elect a U.S. Senator for how many years?",
+    "acceptableAnswers": [
+      { "canonical": "six (6)", "variants": ["6", "six"], "keywords": ["six", "6"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [22, 26]
+  },
+  {
+    "id": 20,
+    "text": "Who is one of your state's U.S. Senators now?",
+    "acceptableAnswers": [],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isStateSpecific": true,
+    "isEssential": true,
+    "answerNote": "Residents of DC and U.S. territories should answer that DC/the territory has no U.S. Senators."
+  },
+  {
+    "id": 21,
+    "text": "The House of Representatives has how many voting members?",
+    "acceptableAnswers": [
+      { "canonical": "four hundred thirty-five (435)", "variants": ["435", "four hundred thirty-five"], "keywords": ["435"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [18]
+  },
+  {
+    "id": 22,
+    "text": "We elect a U.S. Representative for how many years?",
+    "acceptableAnswers": [
+      { "canonical": "two (2)", "variants": ["2", "two"], "keywords": ["two", "2"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [19, 26]
+  },
+  {
+    "id": 23,
+    "text": "Name your U.S. Representative.",
+    "acceptableAnswers": [],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isStateSpecific": true,
+    "answerNote": "Residents of territories with nonvoting Delegates or Resident Commissioners may name that Delegate/Commissioner, or state the territory has no voting Representative."
+  },
+  {
+    "id": 24,
+    "text": "Who does a U.S. Senator represent?",
+    "acceptableAnswers": [
+      { "canonical": "all people of the state", "variants": [], "keywords": ["people", "state"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 25,
+    "text": "Why do some states have more Representatives than other states?",
+    "acceptableAnswers": [
+      { "canonical": "(because of) the state's population", "variants": ["because of the state's population"], "keywords": ["population"] },
+      { "canonical": "(because) they have more people", "variants": ["they have more people"], "keywords": ["more", "people"] },
+      { "canonical": "(because) some states have more people", "variants": ["some states have more people"], "keywords": ["more", "people"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 26,
+    "text": "We elect a President for how many years?",
+    "acceptableAnswers": [
+      { "canonical": "four (4)", "variants": ["4", "four"], "keywords": ["four", "4"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [19, 22]
+  },
+  {
+    "id": 27,
+    "text": "In what month do we vote for President?",
+    "acceptableAnswers": [
+      { "canonical": "November", "variants": [], "keywords": ["november"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DATE",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isEssential": true
+  },
+  {
+    "id": 28,
+    "text": "What is the name of the President of the United States now?",
+    "acceptableAnswers": [
+      { "canonical": "Donald Trump", "variants": ["Trump", "President Trump", "Donald J. Trump"], "keywords": ["trump"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isEssential": true,
+    "answerNote": "Answer changes with each election -- confirm the sitting President as of your interview date."
+  },
+  {
+    "id": 29,
+    "text": "What is the name of the Vice President of the United States now?",
+    "acceptableAnswers": [
+      { "canonical": "JD Vance", "variants": ["Vance", "J.D. Vance", "James David Vance"], "keywords": ["vance"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "answerNote": "Answer changes with each election -- confirm the sitting Vice President as of your interview date."
+  },
+  {
+    "id": 30,
+    "text": "If the President can no longer serve, who becomes President?",
+    "acceptableAnswers": [
+      { "canonical": "the Vice President", "variants": ["Vice President"], "keywords": ["vice", "president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "distractors": ["the Speaker of the House", "the Chief Justice", "the Senate Majority Leader"]
+  },
+  {
+    "id": 31,
+    "text": "If both the President and the Vice President can no longer serve, who becomes President?",
+    "acceptableAnswers": [
+      { "canonical": "the Speaker of the House", "variants": ["Speaker of the House"], "keywords": ["speaker", "house"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "distractors": ["the Chief Justice", "the Senate Majority Leader", "the Secretary of State"]
+  },
+  {
+    "id": 32,
+    "text": "Who is the Commander in Chief of the military?",
+    "acceptableAnswers": [
+      { "canonical": "the President", "variants": ["President"], "keywords": ["president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [15, 33, 34]
+  },
+  {
+    "id": 33,
+    "text": "Who signs bills to become laws?",
+    "acceptableAnswers": [
+      { "canonical": "the President", "variants": ["President"], "keywords": ["president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [15, 32, 34],
+    "distractors": ["the Speaker of the House", "the Chief Justice", "the Vice President"]
+  },
+  {
+    "id": 34,
+    "text": "Who vetoes bills?",
+    "acceptableAnswers": [
+      { "canonical": "the President", "variants": ["President"], "keywords": ["president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [15, 32, 33],
+    "distractors": ["the Speaker of the House", "the Chief Justice", "the Vice President"]
+  },
+  {
+    "id": 35,
+    "text": "What does the President's Cabinet do?",
+    "acceptableAnswers": [
+      { "canonical": "advises the President", "variants": [], "keywords": ["advises", "president"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 36,
+    "text": "What are two Cabinet-level positions?",
+    "acceptableAnswers": [
+      { "canonical": "Secretary of Agriculture", "variants": [], "keywords": ["agriculture"] },
+      { "canonical": "Secretary of Commerce", "variants": [], "keywords": ["commerce"] },
+      { "canonical": "Secretary of Defense", "variants": [], "keywords": ["defense"] },
+      { "canonical": "Secretary of Education", "variants": [], "keywords": ["education"] },
+      { "canonical": "Secretary of Energy", "variants": [], "keywords": ["energy"] },
+      { "canonical": "Secretary of Health and Human Services", "variants": [], "keywords": ["health"] },
+      { "canonical": "Secretary of Homeland Security", "variants": [], "keywords": ["homeland"] },
+      { "canonical": "Secretary of Housing and Urban Development", "variants": [], "keywords": ["housing"] },
+      { "canonical": "Secretary of the Interior", "variants": [], "keywords": ["interior"] },
+      { "canonical": "Secretary of Labor", "variants": [], "keywords": ["labor"] },
+      { "canonical": "Secretary of State", "variants": [], "keywords": ["state"] },
+      { "canonical": "Secretary of Transportation", "variants": [], "keywords": ["transportation"] },
+      { "canonical": "Secretary of the Treasury", "variants": [], "keywords": ["treasury"] },
+      { "canonical": "Secretary of Veterans Affairs", "variants": [], "keywords": ["veterans"] },
+      { "canonical": "Attorney General", "variants": [], "keywords": ["attorney", "general"] },
+      { "canonical": "Vice President", "variants": [], "keywords": ["vice", "president"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "N_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "previewAnswers": ["Secretary of State", "Attorney General", "Secretary of the Treasury"]
+  },
+  {
+    "id": 37,
+    "text": "What does the judicial branch do?",
+    "acceptableAnswers": [
+      { "canonical": "reviews laws", "variants": [], "keywords": ["reviews", "laws"] },
+      { "canonical": "explains laws", "variants": [], "keywords": ["explains", "laws"] },
+      { "canonical": "resolves disputes (disagreements)", "variants": ["resolves disagreements"], "keywords": ["resolves", "disputes"] },
+      { "canonical": "decides if a law goes against the Constitution", "variants": [], "keywords": ["decides", "constitution"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "BRANCH",
+    "category": "Government",
+    "subcategory": "System of Government"
+  },
+  {
+    "id": 38,
+    "text": "What is the highest court in the United States?",
+    "acceptableAnswers": [
+      { "canonical": "the Supreme Court", "variants": ["Supreme Court"], "keywords": ["supreme", "court"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "distractors": ["the Court of Appeals", "the Senate", "the Cabinet"]
+  },
+  {
+    "id": 39,
+    "text": "How many justices are on the Supreme Court?",
+    "acceptableAnswers": [
+      { "canonical": "nine (9)", "variants": ["9", "nine"], "keywords": ["nine", "9"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "answerNote": "Set by federal statute, but confirm the current number before your interview."
+  },
+  {
+    "id": 40,
+    "text": "Who is the Chief Justice of the United States now?",
+    "acceptableAnswers": [
+      { "canonical": "John Roberts", "variants": ["Roberts", "Chief Justice Roberts", "John G. Roberts"], "keywords": ["roberts"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "answerNote": "Answer changes on retirement/appointment -- confirm the sitting Chief Justice as of your interview date."
+  },
+  {
+    "id": 41,
+    "text": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+    "acceptableAnswers": [
+      { "canonical": "to print money", "variants": ["print money"], "keywords": ["print", "money"] },
+      { "canonical": "to declare war", "variants": ["declare war"], "keywords": ["declare", "war"] },
+      { "canonical": "to create an army", "variants": ["create an army"], "keywords": ["army"] },
+      { "canonical": "to make treaties", "variants": ["make treaties"], "keywords": ["treaties"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [42]
+  },
+  {
+    "id": 42,
+    "text": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+    "acceptableAnswers": [
+      { "canonical": "provide schooling and education", "variants": ["provide education"], "keywords": ["schooling", "education"] },
+      { "canonical": "provide protection (police)", "variants": ["provide police protection"], "keywords": ["protection", "police"] },
+      { "canonical": "provide safety (fire departments)", "variants": ["provide fire departments"], "keywords": ["safety", "fire"] },
+      { "canonical": "give a driver's license", "variants": [], "keywords": ["driver", "license"] },
+      { "canonical": "approve zoning and land use", "variants": [], "keywords": ["zoning", "land"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [41]
+  },
+  {
+    "id": 43,
+    "text": "Who is the Governor of your state now?",
+    "acceptableAnswers": [],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isStateSpecific": true,
+    "answerNote": "District of Columbia residents should answer that DC does not have a Governor."
+  },
+  {
+    "id": 44,
+    "text": "What is the capital of your state?",
+    "acceptableAnswers": [],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isStateSpecific": true,
+    "isEssential": true,
+    "answerNote": "DC residents should answer that DC is not a state and has no capital. Territory residents should name the territory's capital."
+  },
+  {
+    "id": 45,
+    "text": "What are the two major political parties in the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Democratic and Republican", "variants": ["Democrat and Republican", "Republican and Democratic"], "keywords": ["democratic", "republican"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "isEssential": true
+  },
+  {
+    "id": 46,
+    "text": "What is the political party of the President now?",
+    "acceptableAnswers": [
+      { "canonical": "Republican", "variants": ["Republican Party", "GOP"], "keywords": ["republican"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "overlapsWith": [45],
+    "answerNote": "Answer changes with each election -- confirm the sitting President's party as of your interview date."
+  },
+  {
+    "id": 47,
+    "text": "What is the name of the Speaker of the House of Representatives now?",
+    "acceptableAnswers": [
+      { "canonical": "Mike Johnson", "variants": ["Johnson", "Speaker Johnson", "Michael Johnson"], "keywords": ["johnson"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "Government",
+    "subcategory": "System of Government",
+    "answerNote": "Answer changes with House leadership elections -- confirm the sitting Speaker as of your interview date."
+  },
+  {
+    "id": 48,
+    "text": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+    "acceptableAnswers": [
+      { "canonical": "Citizens eighteen (18) and older (can vote).", "variants": ["citizens 18 and older can vote"], "keywords": ["eighteen", "18", "vote"] },
+      { "canonical": "You don't have to pay (a poll tax) to vote.", "variants": ["no poll tax to vote"], "keywords": ["poll", "tax"] },
+      { "canonical": "Any citizen can vote. (Women and men can vote.)", "variants": ["women and men can vote"], "keywords": ["women", "men", "vote"] },
+      { "canonical": "A male citizen of any race (can vote).", "variants": ["a man of any race can vote"], "keywords": ["male", "race", "vote"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "RIGHT",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities"
+  },
+  {
+    "id": 49,
+    "text": "What is one responsibility that is only for United States citizens?",
+    "acceptableAnswers": [
+      { "canonical": "serve on a jury", "variants": [], "keywords": ["jury"] },
+      { "canonical": "vote in a federal election", "variants": [], "keywords": ["vote", "federal"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "RESPONSIBILITY",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "isEssential": true,
+    "overlapsWith": [50]
+  },
+  {
+    "id": 50,
+    "text": "Name one right only for United States citizens.",
+    "acceptableAnswers": [
+      { "canonical": "vote in a federal election", "variants": [], "keywords": ["vote", "federal"] },
+      { "canonical": "run for federal office", "variants": [], "keywords": ["run", "federal", "office"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "RIGHT",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "overlapsWith": [49]
+  },
+  {
+    "id": 51,
+    "text": "What are two rights of everyone living in the United States?",
+    "acceptableAnswers": [
+      { "canonical": "freedom of expression", "variants": [], "keywords": ["expression"] },
+      { "canonical": "freedom of speech", "variants": [], "keywords": ["speech"] },
+      { "canonical": "freedom of assembly", "variants": [], "keywords": ["assembly"] },
+      { "canonical": "freedom to petition the government", "variants": [], "keywords": ["petition"] },
+      { "canonical": "freedom of religion", "variants": [], "keywords": ["religion"] },
+      { "canonical": "the right to bear arms", "variants": ["right to bear arms"], "keywords": ["bear", "arms"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "N_OF",
+    "answerType": "RIGHT",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "overlapsWith": [6],
+    "previewAnswers": ["freedom of speech", "freedom of religion", "the right to bear arms"]
+  },
+  {
+    "id": 52,
+    "text": "What do we show loyalty to when we say the Pledge of Allegiance?",
+    "acceptableAnswers": [
+      { "canonical": "the United States", "variants": ["United States"], "keywords": ["united", "states"] },
+      { "canonical": "the flag", "variants": ["flag"], "keywords": ["flag"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "SYMBOL",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities"
+  },
+  {
+    "id": 53,
+    "text": "What is one promise you make when you become a United States citizen?",
+    "acceptableAnswers": [
+      { "canonical": "give up loyalty to other countries", "variants": [], "keywords": ["give", "up", "loyalty"] },
+      { "canonical": "defend the Constitution and laws of the United States", "variants": [], "keywords": ["defend", "constitution"] },
+      { "canonical": "obey the laws of the United States", "variants": [], "keywords": ["obey", "laws"] },
+      { "canonical": "serve in the U.S. military (if needed)", "variants": ["serve in the military if needed"], "keywords": ["serve", "military"] },
+      { "canonical": "serve (do important work for) the nation (if needed)", "variants": ["serve the nation if needed"], "keywords": ["serve", "nation"] },
+      { "canonical": "be loyal to the United States", "variants": [], "keywords": ["loyal"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "RESPONSIBILITY",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities"
+  },
+  {
+    "id": 54,
+    "text": "How old do citizens have to be to vote for President?",
+    "acceptableAnswers": [
+      { "canonical": "eighteen (18) and older", "variants": ["18", "eighteen"], "keywords": ["eighteen", "18"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "isEssential": true,
+    "overlapsWith": [48]
+  },
+  {
+    "id": 55,
+    "text": "What are two ways that Americans can participate in their democracy?",
+    "acceptableAnswers": [
+      { "canonical": "vote", "variants": [], "keywords": ["vote"] },
+      { "canonical": "join a political party", "variants": [], "keywords": ["political", "party"] },
+      { "canonical": "help with a campaign", "variants": [], "keywords": ["campaign"] },
+      { "canonical": "join a civic group", "variants": [], "keywords": ["civic", "group"] },
+      { "canonical": "join a community group", "variants": [], "keywords": ["community", "group"] },
+      { "canonical": "give an elected official your opinion on an issue", "variants": [], "keywords": ["elected", "official", "opinion"] },
+      { "canonical": "call Senators and Representatives", "variants": [], "keywords": ["call", "senators"] },
+      { "canonical": "publicly support or oppose an issue or policy", "variants": [], "keywords": ["support", "oppose"] },
+      { "canonical": "run for office", "variants": [], "keywords": ["run", "office"] },
+      { "canonical": "write to a newspaper", "variants": [], "keywords": ["write", "newspaper"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "N_OF",
+    "answerType": "CONCEPT",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "previewAnswers": ["vote", "run for office", "join a political party"]
+  },
+  {
+    "id": 56,
+    "text": "When is the last day you can send in federal income tax forms?",
+    "acceptableAnswers": [
+      { "canonical": "April 15", "variants": ["April 15th"], "keywords": ["april", "fifteen", "15"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DATE",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities",
+    "isEssential": true
+  },
+  {
+    "id": 57,
+    "text": "When must all men register for the Selective Service?",
+    "acceptableAnswers": [
+      { "canonical": "at age eighteen (18)", "variants": ["at 18", "age 18"], "keywords": ["eighteen", "18"] },
+      { "canonical": "between eighteen (18) and twenty-six (26)", "variants": ["between 18 and 26"], "keywords": ["eighteen", "twenty-six"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "NUMBER",
+    "category": "Government",
+    "subcategory": "Rights and Responsibilities"
+  },
+  {
+    "id": 58,
+    "text": "What is one reason colonists came to America?",
+    "acceptableAnswers": [
+      { "canonical": "freedom", "variants": [], "keywords": ["freedom"] },
+      { "canonical": "political liberty", "variants": [], "keywords": ["political", "liberty"] },
+      { "canonical": "religious freedom", "variants": [], "keywords": ["religious", "freedom"] },
+      { "canonical": "economic opportunity", "variants": [], "keywords": ["economic", "opportunity"] },
+      { "canonical": "practice their religion", "variants": [], "keywords": ["practice", "religion"] },
+      { "canonical": "escape persecution", "variants": [], "keywords": ["escape", "persecution"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 59,
+    "text": "Who lived in America before the Europeans arrived?",
+    "acceptableAnswers": [
+      { "canonical": "American Indians", "variants": [], "keywords": ["american", "indians"] },
+      { "canonical": "Native Americans", "variants": [], "keywords": ["native", "americans"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 60,
+    "text": "What group of people was taken to America and sold as slaves?",
+    "acceptableAnswers": [
+      { "canonical": "Africans", "variants": [], "keywords": ["africans"] },
+      { "canonical": "people from Africa", "variants": [], "keywords": ["africa"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 61,
+    "text": "Why did the colonists fight the British?",
+    "acceptableAnswers": [
+      { "canonical": "because of high taxes (taxation without representation)", "variants": ["high taxes", "taxation without representation"], "keywords": ["taxes", "taxation"] },
+      { "canonical": "because the British army stayed in their houses (boarding, quartering)", "variants": ["british soldiers stayed in their houses"], "keywords": ["quartering", "boarding"] },
+      { "canonical": "because they didn't have self-government", "variants": ["no self-government"], "keywords": ["self-government"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 62,
+    "text": "Who wrote the Declaration of Independence?",
+    "acceptableAnswers": [
+      { "canonical": "(Thomas) Jefferson", "variants": ["Thomas Jefferson", "Jefferson"], "keywords": ["jefferson"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 63,
+    "text": "When was the Declaration of Independence adopted?",
+    "acceptableAnswers": [
+      { "canonical": "July 4, 1776", "variants": ["July 4th, 1776"], "keywords": ["july", "1776"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DATE",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence",
+    "overlapsWith": [99]
+  },
+  {
+    "id": 64,
+    "text": "There were 13 original states. Name three.",
+    "acceptableAnswers": [
+      { "canonical": "New Hampshire", "variants": [], "keywords": ["hampshire"] },
+      { "canonical": "Massachusetts", "variants": [], "keywords": ["massachusetts"] },
+      { "canonical": "Rhode Island", "variants": [], "keywords": ["rhode"] },
+      { "canonical": "Connecticut", "variants": [], "keywords": ["connecticut"] },
+      { "canonical": "New York", "variants": [], "keywords": ["new", "york"] },
+      { "canonical": "New Jersey", "variants": [], "keywords": ["new", "jersey"] },
+      { "canonical": "Pennsylvania", "variants": [], "keywords": ["pennsylvania"] },
+      { "canonical": "Delaware", "variants": [], "keywords": ["delaware"] },
+      { "canonical": "Maryland", "variants": [], "keywords": ["maryland"] },
+      { "canonical": "Virginia", "variants": [], "keywords": ["virginia"] },
+      { "canonical": "North Carolina", "variants": [], "keywords": ["north", "carolina"] },
+      { "canonical": "South Carolina", "variants": [], "keywords": ["south", "carolina"] },
+      { "canonical": "Georgia", "variants": [], "keywords": ["georgia"] }
+    ],
+    "requiredCount": 3,
+    "answerMode": "N_OF",
+    "answerType": "PLACE",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence",
+    "previewAnswers": ["Virginia", "New York", "Georgia", "Massachusetts"]
+  },
+  {
+    "id": 65,
+    "text": "What happened at the Constitutional Convention?",
+    "acceptableAnswers": [
+      { "canonical": "The Constitution was written.", "variants": ["the constitution was drafted"], "keywords": ["constitution", "written"] },
+      { "canonical": "The Founding Fathers wrote the Constitution.", "variants": [], "keywords": ["founding", "fathers"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 66,
+    "text": "When was the Constitution written?",
+    "acceptableAnswers": [
+      { "canonical": "1787", "variants": [], "keywords": ["1787"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DATE",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 67,
+    "text": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "acceptableAnswers": [
+      { "canonical": "(James) Madison", "variants": ["James Madison", "Madison"], "keywords": ["madison"] },
+      { "canonical": "(Alexander) Hamilton", "variants": ["Alexander Hamilton", "Hamilton"], "keywords": ["hamilton"] },
+      { "canonical": "(John) Jay", "variants": ["John Jay", "Jay"], "keywords": ["jay"] },
+      { "canonical": "Publius", "variants": [], "keywords": ["publius"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 68,
+    "text": "What is one thing Benjamin Franklin is famous for?",
+    "acceptableAnswers": [
+      { "canonical": "U.S. diplomat", "variants": [], "keywords": ["diplomat"] },
+      { "canonical": "oldest member of the Constitutional Convention", "variants": [], "keywords": ["oldest", "convention"] },
+      { "canonical": "first Postmaster General of the United States", "variants": ["first Postmaster General"], "keywords": ["postmaster"] },
+      { "canonical": "writer of \"Poor Richard's Almanac\"", "variants": ["wrote Poor Richard's Almanac"], "keywords": ["almanac"] },
+      { "canonical": "started the first free libraries", "variants": [], "keywords": ["libraries"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence"
+  },
+  {
+    "id": 69,
+    "text": "Who is the \"Father of Our Country\"?",
+    "acceptableAnswers": [
+      { "canonical": "(George) Washington", "variants": ["George Washington", "Washington"], "keywords": ["washington"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence",
+    "overlapsWith": [70]
+  },
+  {
+    "id": 70,
+    "text": "Who was the first President?",
+    "acceptableAnswers": [
+      { "canonical": "(George) Washington", "variants": ["George Washington", "Washington"], "keywords": ["washington"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Colonial Period and Independence",
+    "isEssential": true,
+    "overlapsWith": [69]
+  },
+  {
+    "id": 71,
+    "text": "What territory did the United States buy from France in 1803?",
+    "acceptableAnswers": [
+      { "canonical": "the Louisiana Territory", "variants": ["Louisiana Territory"], "keywords": ["louisiana", "territory"] },
+      { "canonical": "Louisiana", "variants": [], "keywords": ["louisiana"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "History",
+    "subcategory": "1800s"
+  },
+  {
+    "id": 72,
+    "text": "Name one war fought by the United States in the 1800s.",
+    "acceptableAnswers": [
+      { "canonical": "War of 1812", "variants": [], "keywords": ["1812"] },
+      { "canonical": "Mexican-American War", "variants": [], "keywords": ["mexican"] },
+      { "canonical": "Civil War", "variants": [], "keywords": ["civil", "war"] },
+      { "canonical": "Spanish-American War", "variants": [], "keywords": ["spanish"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "WAR",
+    "category": "History",
+    "subcategory": "1800s",
+    "overlapsWith": [73]
+  },
+  {
+    "id": 73,
+    "text": "Name the U.S. war between the North and the South.",
+    "acceptableAnswers": [
+      { "canonical": "the Civil War", "variants": ["Civil War"], "keywords": ["civil", "war"] },
+      { "canonical": "the War between the States", "variants": ["War between the States"], "keywords": ["states", "war"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "WAR",
+    "category": "History",
+    "subcategory": "1800s",
+    "overlapsWith": [72]
+  },
+  {
+    "id": 74,
+    "text": "Name one problem that led to the Civil War.",
+    "acceptableAnswers": [
+      { "canonical": "slavery", "variants": [], "keywords": ["slavery"] },
+      { "canonical": "economic reasons", "variants": [], "keywords": ["economic"] },
+      { "canonical": "states' rights", "variants": [], "keywords": ["states", "rights"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "1800s"
+  },
+  {
+    "id": 75,
+    "text": "What was one important thing that Abraham Lincoln did?",
+    "acceptableAnswers": [
+      { "canonical": "freed the slaves (Emancipation Proclamation)", "variants": ["freed the slaves"], "keywords": ["freed", "slaves"] },
+      { "canonical": "saved (or preserved) the Union", "variants": ["preserved the union"], "keywords": ["saved", "union"] },
+      { "canonical": "led the United States during the Civil War", "variants": [], "keywords": ["led", "civil", "war"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "1800s",
+    "isEssential": true,
+    "overlapsWith": [76]
+  },
+  {
+    "id": 76,
+    "text": "What did the Emancipation Proclamation do?",
+    "acceptableAnswers": [
+      { "canonical": "freed the slaves", "variants": [], "keywords": ["freed", "slaves"] },
+      { "canonical": "freed slaves in the Confederacy", "variants": [], "keywords": ["confederacy"] },
+      { "canonical": "freed slaves in the Confederate states", "variants": [], "keywords": ["confederate"] },
+      { "canonical": "freed slaves in most Southern states", "variants": [], "keywords": ["southern"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "1800s",
+    "overlapsWith": [75]
+  },
+  {
+    "id": 77,
+    "text": "What did Susan B. Anthony do?",
+    "acceptableAnswers": [
+      { "canonical": "fought for women's rights", "variants": [], "keywords": ["women", "rights"] },
+      { "canonical": "fought for civil rights", "variants": [], "keywords": ["civil", "rights"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "1800s",
+    "overlapsWith": [85]
+  },
+  {
+    "id": 78,
+    "text": "Name one war fought by the United States in the 1900s.",
+    "acceptableAnswers": [
+      { "canonical": "World War I", "variants": ["WWI"], "keywords": ["world", "war"] },
+      { "canonical": "World War II", "variants": ["WWII"], "keywords": ["world", "war"] },
+      { "canonical": "Korean War", "variants": [], "keywords": ["korean"] },
+      { "canonical": "Vietnam War", "variants": [], "keywords": ["vietnam"] },
+      { "canonical": "(Persian) Gulf War", "variants": ["Gulf War", "Persian Gulf War"], "keywords": ["gulf"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "WAR",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information",
+    "isEssential": true
+  },
+  {
+    "id": 79,
+    "text": "Who was President during World War I?",
+    "acceptableAnswers": [
+      { "canonical": "(Woodrow) Wilson", "variants": ["Woodrow Wilson", "Wilson"], "keywords": ["wilson"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 80,
+    "text": "Who was President during the Great Depression and World War II?",
+    "acceptableAnswers": [
+      { "canonical": "(Franklin) Roosevelt", "variants": ["Franklin Roosevelt", "Roosevelt", "FDR"], "keywords": ["roosevelt"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PERSON",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 81,
+    "text": "Who did the United States fight in World War II?",
+    "acceptableAnswers": [
+      { "canonical": "Japan", "variants": [], "keywords": ["japan"] },
+      { "canonical": "Germany", "variants": [], "keywords": ["germany"] },
+      { "canonical": "Italy", "variants": [], "keywords": ["italy"] }
+    ],
+    "requiredCount": 3,
+    "answerMode": "ALL_OF",
+    "answerType": "PLACE",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 82,
+    "text": "Before he was President, Eisenhower was a general. What war was he in?",
+    "acceptableAnswers": [
+      { "canonical": "World War II", "variants": ["WWII"], "keywords": ["world", "war"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "WAR",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 83,
+    "text": "During the Cold War, what was the main concern of the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Communism", "variants": [], "keywords": ["communism"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 84,
+    "text": "What movement tried to end racial discrimination?",
+    "acceptableAnswers": [
+      { "canonical": "civil rights (movement)", "variants": ["civil rights movement"], "keywords": ["civil", "rights"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information",
+    "overlapsWith": [85]
+  },
+  {
+    "id": 85,
+    "text": "What did Martin Luther King, Jr. do?",
+    "acceptableAnswers": [
+      { "canonical": "fought for civil rights", "variants": [], "keywords": ["civil", "rights"] },
+      { "canonical": "worked for equality for all Americans", "variants": [], "keywords": ["equality"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information",
+    "isEssential": true,
+    "overlapsWith": [77, 84]
+  },
+  {
+    "id": 86,
+    "text": "What major event happened on September 11, 2001, in the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Terrorists attacked the United States.", "variants": ["terrorist attacks", "9/11 attacks"], "keywords": ["terrorists", "attacked"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "CONCEPT",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 87,
+    "text": "Name one American Indian tribe in the United States.",
+    "acceptableAnswers": [
+      { "canonical": "Cherokee", "variants": [], "keywords": ["cherokee"] },
+      { "canonical": "Navajo", "variants": [], "keywords": ["navajo"] },
+      { "canonical": "Sioux", "variants": [], "keywords": ["sioux"] },
+      { "canonical": "Chippewa", "variants": [], "keywords": ["chippewa"] },
+      { "canonical": "Choctaw", "variants": [], "keywords": ["choctaw"] },
+      { "canonical": "Pueblo", "variants": [], "keywords": ["pueblo"] },
+      { "canonical": "Apache", "variants": [], "keywords": ["apache"] },
+      { "canonical": "Iroquois", "variants": [], "keywords": ["iroquois"] },
+      { "canonical": "Creek", "variants": [], "keywords": ["creek"] },
+      { "canonical": "Blackfeet", "variants": [], "keywords": ["blackfeet"] },
+      { "canonical": "Seminole", "variants": [], "keywords": ["seminole"] },
+      { "canonical": "Cheyenne", "variants": [], "keywords": ["cheyenne"] },
+      { "canonical": "Arawak", "variants": [], "keywords": ["arawak"] },
+      { "canonical": "Shawnee", "variants": [], "keywords": ["shawnee"] },
+      { "canonical": "Mohegan", "variants": [], "keywords": ["mohegan"] },
+      { "canonical": "Huron", "variants": [], "keywords": ["huron"] },
+      { "canonical": "Oneida", "variants": [], "keywords": ["oneida"] },
+      { "canonical": "Lakota", "variants": [], "keywords": ["lakota"] },
+      { "canonical": "Crow", "variants": [], "keywords": ["crow"] },
+      { "canonical": "Teton", "variants": [], "keywords": ["teton"] },
+      { "canonical": "Hopi", "variants": [], "keywords": ["hopi"] },
+      { "canonical": "Inuit", "variants": [], "keywords": ["inuit"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "OTHER",
+    "category": "History",
+    "subcategory": "Recent American History and Other Important Historical Information"
+  },
+  {
+    "id": 88,
+    "text": "Name one of the two longest rivers in the United States.",
+    "acceptableAnswers": [
+      { "canonical": "Missouri (River)", "variants": ["Missouri River", "Missouri"], "keywords": ["missouri"] },
+      { "canonical": "Mississippi (River)", "variants": ["Mississippi River", "Mississippi"], "keywords": ["mississippi"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 89,
+    "text": "What ocean is on the West Coast of the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Pacific (Ocean)", "variants": ["Pacific Ocean", "Pacific"], "keywords": ["pacific"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 90,
+    "text": "What ocean is on the East Coast of the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Atlantic (Ocean)", "variants": ["Atlantic Ocean", "Atlantic"], "keywords": ["atlantic"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 91,
+    "text": "Name one U.S. territory.",
+    "acceptableAnswers": [
+      { "canonical": "Puerto Rico", "variants": [], "keywords": ["puerto", "rico"] },
+      { "canonical": "U.S. Virgin Islands", "variants": ["Virgin Islands"], "keywords": ["virgin", "islands"] },
+      { "canonical": "American Samoa", "variants": [], "keywords": ["samoa"] },
+      { "canonical": "Northern Mariana Islands", "variants": [], "keywords": ["mariana"] },
+      { "canonical": "Guam", "variants": [], "keywords": ["guam"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 92,
+    "text": "Name one state that borders Canada.",
+    "acceptableAnswers": [
+      { "canonical": "Maine", "variants": [], "keywords": ["maine"] },
+      { "canonical": "New Hampshire", "variants": [], "keywords": ["hampshire"] },
+      { "canonical": "Vermont", "variants": [], "keywords": ["vermont"] },
+      { "canonical": "New York", "variants": [], "keywords": ["new", "york"] },
+      { "canonical": "Pennsylvania", "variants": [], "keywords": ["pennsylvania"] },
+      { "canonical": "Ohio", "variants": [], "keywords": ["ohio"] },
+      { "canonical": "Michigan", "variants": [], "keywords": ["michigan"] },
+      { "canonical": "Minnesota", "variants": [], "keywords": ["minnesota"] },
+      { "canonical": "North Dakota", "variants": [], "keywords": ["dakota"] },
+      { "canonical": "Montana", "variants": [], "keywords": ["montana"] },
+      { "canonical": "Idaho", "variants": [], "keywords": ["idaho"] },
+      { "canonical": "Washington", "variants": [], "keywords": ["washington"] },
+      { "canonical": "Alaska", "variants": [], "keywords": ["alaska"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 93,
+    "text": "Name one state that borders Mexico.",
+    "acceptableAnswers": [
+      { "canonical": "California", "variants": [], "keywords": ["california"] },
+      { "canonical": "Arizona", "variants": [], "keywords": ["arizona"] },
+      { "canonical": "New Mexico", "variants": [], "keywords": ["new", "mexico"] },
+      { "canonical": "Texas", "variants": [], "keywords": ["texas"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography"
+  },
+  {
+    "id": 94,
+    "text": "What is the capital of the United States?",
+    "acceptableAnswers": [
+      { "canonical": "Washington, D.C.", "variants": ["Washington D.C.", "Washington DC", "DC"], "keywords": ["washington"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography",
+    "isEssential": true
+  },
+  {
+    "id": 95,
+    "text": "Where is the Statue of Liberty?",
+    "acceptableAnswers": [
+      { "canonical": "New York (Harbor)", "variants": ["New York Harbor", "New York"], "keywords": ["new", "york"] },
+      { "canonical": "Liberty Island", "variants": ["New Jersey", "near New York City", "on the Hudson (River)"], "keywords": ["liberty", "island"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "PLACE",
+    "category": "Integrated Civics",
+    "subcategory": "Geography",
+    "isEssential": true
+  },
+  {
+    "id": 96,
+    "text": "Why does the flag have 13 stripes?",
+    "acceptableAnswers": [
+      { "canonical": "because there were 13 original colonies", "variants": ["13 original colonies"], "keywords": ["thirteen", "colonies"] },
+      { "canonical": "because the stripes represent the original colonies", "variants": [], "keywords": ["stripes", "colonies"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "SYMBOL",
+    "category": "Integrated Civics",
+    "subcategory": "Symbols and Holidays"
+  },
+  {
+    "id": 97,
+    "text": "Why does the flag have 50 stars?",
+    "acceptableAnswers": [
+      { "canonical": "because there is one star for each state", "variants": ["one star per state"], "keywords": ["star", "state"] },
+      { "canonical": "because each star represents a state", "variants": [], "keywords": ["star", "represents"] },
+      { "canonical": "because there are 50 states", "variants": ["50 states"], "keywords": ["fifty", "states"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "SYMBOL",
+    "category": "Integrated Civics",
+    "subcategory": "Symbols and Holidays",
+    "isEssential": true,
+    "distractors": ["because there are 50 territories", "because the stars represent the original colonies", "because there is one star for each amendment"]
+  },
+  {
+    "id": 98,
+    "text": "What is the name of the national anthem?",
+    "acceptableAnswers": [
+      { "canonical": "The Star-Spangled Banner", "variants": ["Star-Spangled Banner"], "keywords": ["star-spangled", "banner"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "SYMBOL",
+    "category": "Integrated Civics",
+    "subcategory": "Symbols and Holidays",
+    "distractors": ["America the Beautiful", "My Country, 'Tis of Thee", "God Bless America"]
+  },
+  {
+    "id": 99,
+    "text": "When do we celebrate Independence Day?",
+    "acceptableAnswers": [
+      { "canonical": "July 4", "variants": ["July 4th", "the Fourth of July"], "keywords": ["july", "fourth"] }
+    ],
+    "requiredCount": 1,
+    "answerMode": "ANY_OF",
+    "answerType": "DATE",
+    "category": "Integrated Civics",
+    "subcategory": "Symbols and Holidays",
+    "isEssential": true,
+    "overlapsWith": [63]
+  },
+  {
+    "id": 100,
+    "text": "Name two national U.S. holidays.",
+    "acceptableAnswers": [
+      { "canonical": "New Year's Day", "variants": [], "keywords": ["new", "year"] },
+      { "canonical": "Martin Luther King, Jr. Day", "variants": ["MLK Day"], "keywords": ["martin", "luther", "king"] },
+      { "canonical": "Presidents' Day", "variants": [], "keywords": ["presidents"] },
+      { "canonical": "Memorial Day", "variants": [], "keywords": ["memorial"] },
+      { "canonical": "Independence Day", "variants": ["Fourth of July", "July 4th"], "keywords": ["independence"] },
+      { "canonical": "Labor Day", "variants": [], "keywords": ["labor"] },
+      { "canonical": "Columbus Day", "variants": [], "keywords": ["columbus"] },
+      { "canonical": "Veterans Day", "variants": [], "keywords": ["veterans"] },
+      { "canonical": "Thanksgiving", "variants": [], "keywords": ["thanksgiving"] },
+      { "canonical": "Christmas", "variants": [], "keywords": ["christmas"] }
+    ],
+    "requiredCount": 2,
+    "answerMode": "N_OF",
+    "answerType": "HOLIDAY",
+    "category": "Integrated Civics",
+    "subcategory": "Symbols and Holidays",
+    "previewAnswers": ["Thanksgiving", "Independence Day"],
+    "overlapsWith": [99]
+  }
+]
