@@ -12,3 +12,8 @@ captures/
 
 # Claude Code local config/skills (not part of app source)
 .claude/
+
+# Release signing -- never commit the real keystore or its passwords
+keystore.properties
+*.jks
+*.keystore

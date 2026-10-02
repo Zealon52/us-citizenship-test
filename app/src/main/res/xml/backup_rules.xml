@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pre-API-31 Auto Backup rules (minSdk 26), same exclusion as data_extraction_rules.xml,
+     which only applies on API 31+. -->
+<full-backup-content>
+    <exclude domain="file" path="officials_cache.json" />
+</full-backup-content>
