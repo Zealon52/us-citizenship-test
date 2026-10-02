@@ -75,10 +75,11 @@ fun HomeScreen(
     ) {
         HomeHeader(greetingName = uiState.greetingName, onOpenProfile = onOpenProfile)
 
-        if (uiState.daysUntilTest != null) {
+        if (uiState.isLoading || uiState.daysUntilTest != null) {
             CountdownCard(
-                daysUntilTest = uiState.daysUntilTest!!,
+                daysUntilTest = uiState.daysUntilTest,
                 confidencePercent = uiState.confidencePercent,
+                isLoading = uiState.isLoading,
             )
         }
 
@@ -173,7 +174,7 @@ private fun HomeHeader(greetingName: String?, onOpenProfile: () -> Unit) {
 }
 
 @Composable
-private fun CountdownCard(daysUntilTest: Int, confidencePercent: Int) {
+private fun CountdownCard(daysUntilTest: Int?, confidencePercent: Int, isLoading: Boolean) {
     Surface(
         modifier = Modifier.fillMaxWidth(),
         shape = MaterialTheme.shapes.large,
@@ -193,25 +194,38 @@ private fun CountdownCard(daysUntilTest: Int, confidencePercent: Int) {
                     modifier = Modifier.size(20.dp),
                 )
                 Text(
-                    text = if (daysUntilTest >= 0) "$daysUntilTest days until your test" else "Your test date has passed",
+                    text = when {
+                        isLoading || daysUntilTest == null -> "Loading your countdown..."
+                        daysUntilTest >= 0 -> "$daysUntilTest days until your test"
+                        else -> "Your test date has passed"
+                    },
                     style = MaterialTheme.typography.bodyMedium,
                     fontWeight = FontWeight.SemiBold,
                 )
             }
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 Box(contentAlignment = Alignment.Center, modifier = Modifier.size(36.dp)) {
-                    CircularProgressIndicator(
-                        progress = { confidencePercent / 100f },
-                        modifier = Modifier.fillMaxSize(),
-                        strokeWidth = 3.dp,
-                        trackColor = MaterialTheme.colorScheme.surfaceVariant,
-                    )
-                    Text(
-                        text = "$confidencePercent%",
-                        style = MaterialTheme.typography.labelSmall,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary,
-                    )
+                    if (isLoading) {
+                        // Spins indeterminately while the confidence score is still being computed,
+                        // instead of showing a misleading static 0% before settling on the real value.
+                        CircularProgressIndicator(
+                            modifier = Modifier.fillMaxSize(),
+                            strokeWidth = 3.dp,
+                        )
+                    } else {
+                        CircularProgressIndicator(
+                            progress = { confidencePercent / 100f },
+                            modifier = Modifier.fillMaxSize(),
+                            strokeWidth = 3.dp,
+                            trackColor = MaterialTheme.colorScheme.surfaceVariant,
+                        )
+                        Text(
+                            text = "$confidencePercent%",
+                            style = MaterialTheme.typography.labelSmall,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary,
+                        )
+                    }
                 }
             }
         }
