@@ -1,6 +1,13 @@
 package com.usctest.app.ui.home
 
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -15,7 +22,6 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
@@ -25,6 +31,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
@@ -204,30 +212,68 @@ private fun CountdownCard(daysUntilTest: Int?, confidencePercent: Int, isLoading
                 )
             }
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Box(contentAlignment = Alignment.Center, modifier = Modifier.size(36.dp)) {
-                    if (isLoading) {
-                        // Spins indeterminately while the confidence score is still being computed,
-                        // instead of showing a misleading static 0% before settling on the real value.
-                        CircularProgressIndicator(
-                            modifier = Modifier.fillMaxSize(),
-                            strokeWidth = 3.dp,
-                        )
-                    } else {
-                        CircularProgressIndicator(
-                            progress = { confidencePercent / 100f },
-                            modifier = Modifier.fillMaxSize(),
-                            strokeWidth = 3.dp,
-                            trackColor = MaterialTheme.colorScheme.surfaceVariant,
-                        )
-                        Text(
-                            text = "$confidencePercent%",
-                            style = MaterialTheme.typography.labelSmall,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.primary,
-                        )
-                    }
-                }
+                ConfidenceRing(confidencePercent = confidencePercent, isLoading = isLoading)
             }
+        }
+    }
+}
+
+/**
+ * Drawn with a single Canvas (rather than swapping between an indeterminate and a determinate
+ * CircularProgressIndicator) so the loading and loaded states share identical size/stroke/track --
+ * Material3's two indicator variants render at visually different sizes. The loading arc rotates
+ * slowly (long tween, not the default indicator's fast spin) and the percent arc animates into
+ * place instead of snapping, so the swap from loading to the real value reads as one continuous
+ * motion rather than a jump.
+ */
+@Composable
+private fun ConfidenceRing(confidencePercent: Int, isLoading: Boolean) {
+    val trackColor = MaterialTheme.colorScheme.surfaceVariant
+    val progressColor = MaterialTheme.colorScheme.primary
+
+    val rotation by rememberInfiniteTransition(label = "confidenceRingRotation").animateFloat(
+        initialValue = 0f,
+        targetValue = 360f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(durationMillis = 1800, easing = LinearEasing),
+        ),
+        label = "rotationDegrees",
+    )
+    val animatedProgress by animateFloatAsState(
+        targetValue = confidencePercent / 100f,
+        animationSpec = tween(durationMillis = 500),
+        label = "confidenceProgress",
+    )
+
+    Box(contentAlignment = Alignment.Center, modifier = Modifier.size(36.dp)) {
+        Canvas(modifier = Modifier.fillMaxSize()) {
+            val stroke = Stroke(width = 3.dp.toPx(), cap = StrokeCap.Round)
+            drawCircle(color = trackColor, style = stroke)
+            if (isLoading) {
+                drawArc(
+                    color = progressColor,
+                    startAngle = rotation,
+                    sweepAngle = 90f,
+                    useCenter = false,
+                    style = stroke,
+                )
+            } else {
+                drawArc(
+                    color = progressColor,
+                    startAngle = -90f,
+                    sweepAngle = 360f * animatedProgress,
+                    useCenter = false,
+                    style = stroke,
+                )
+            }
+        }
+        if (!isLoading) {
+            Text(
+                text = "$confidencePercent%",
+                style = MaterialTheme.typography.labelSmall,
+                fontWeight = FontWeight.Bold,
+                color = progressColor,
+            )
         }
     }
 }
