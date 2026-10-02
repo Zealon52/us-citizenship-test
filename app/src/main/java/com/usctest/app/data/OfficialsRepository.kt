@@ -28,8 +28,10 @@ class OfficialsRepository(
     private val remoteUrl: String = REMOTE_URL,
 ) {
     companion object {
-        // Swappable config: point this at a hosted JSON file (e.g. a GitHub raw URL) once one exists.
-        const val REMOTE_URL = ""
+        // Hosted via GitHub raw in the app's own private repo; bundled assets copy remains the
+        // permanent offline fallback regardless of whether this URL is reachable.
+        const val REMOTE_URL =
+            "https://raw.githubusercontent.com/Zealon52/us-citizenship-test/master/app/src/main/assets/officials_fallback.json"
         private const val CACHE_FILE_NAME = "officials_cache.json"
     }
 
