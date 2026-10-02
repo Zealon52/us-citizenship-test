@@ -45,6 +45,7 @@ import com.adamglin.phosphoricons.regular.ArrowsClockwise
 import com.adamglin.phosphoricons.regular.Check
 import com.adamglin.phosphoricons.regular.FlagCheckered
 import com.adamglin.phosphoricons.regular.ListChecks
+import com.adamglin.phosphoricons.regular.Microphone
 import com.adamglin.phosphoricons.regular.PencilSimple
 import com.usctest.app.data.SettingsRepository
 import com.usctest.app.ui.common.rememberViewModel
@@ -52,6 +53,12 @@ import com.usctest.app.ui.theme.SuccessGreen
 import kotlinx.coroutines.launch
 
 private const val PAGE_COUNT = 4
+
+// Shown in both the Recall Mode and Practice Test mock previews below -- same question in both
+// so a user flipping between the two walkthrough pages sees one consistent example, not two
+// unrelated ones.
+private const val SAMPLE_QUESTION = "What is the supreme law of the land?"
+private const val SAMPLE_ANSWER = "The Constitution"
 
 /**
  * First-launch walkthrough -- runs once, between onboarding and Home, explaining the app's three
@@ -224,8 +231,12 @@ private fun RecallModePage() {
             color = MaterialTheme.colorScheme.surface,
             border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)),
         ) {
-            Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.Bottom) {
-                Box(modifier = Modifier.weight(1f))
+            Column(modifier = Modifier.padding(20.dp).fillMaxSize(), verticalArrangement = Arrangement.SpaceBetween) {
+                Text(
+                    text = SAMPLE_QUESTION,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                )
                 Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     Text(
                         text = "Your answer",
@@ -239,11 +250,29 @@ private fun RecallModePage() {
                         modifier = Modifier.fillMaxWidth(),
                     ) {
                         Text(
-                            text = "Type your answer",
+                            text = SAMPLE_ANSWER,
                             style = MaterialTheme.typography.bodyLarge,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
                             modifier = Modifier.padding(horizontal = 16.dp, vertical = 14.dp),
                         )
+                    }
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.Center,
+                    ) {
+                        Surface(
+                            shape = CircleShape,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.size(44.dp),
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                Icon(
+                                    imageVector = PhosphorIcons.Regular.Microphone,
+                                    contentDescription = null,
+                                    tint = MaterialTheme.colorScheme.onPrimary,
+                                    modifier = Modifier.size(20.dp),
+                                )
+                            }
+                        }
                     }
                 }
             }
@@ -269,15 +298,15 @@ private fun PracticeTestPage() {
                 modifier = Modifier.padding(20.dp).fillMaxSize(),
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
-                MockOption(text = "Option A", selected = false, correct = false)
-                MockOption(text = "Option B", selected = true, correct = true)
-                MockOption(text = "Option C", selected = false, correct = false)
                 Text(
-                    text = "Also accepted: 3 more answers",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(top = 4.dp),
+                    text = SAMPLE_QUESTION,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.padding(bottom = 4.dp),
                 )
+                MockOption(text = SAMPLE_ANSWER, selected = true, correct = true)
+                MockOption(text = "The Bill of Rights", selected = false, correct = false)
+                MockOption(text = "The Declaration of Independence", selected = false, correct = false)
             }
         }
     }
