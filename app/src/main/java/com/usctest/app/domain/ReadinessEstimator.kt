@@ -24,7 +24,10 @@ object ReadinessEstimator {
     fun estimate(
         accuracies: List<QuestionAccuracy>,
         rules: ExamRules,
-        random: Random = Random.Default,
+        // Seeded from the inputs rather than Random.Default so identical accuracy snapshots
+        // always produce the identical confidence percent -- otherwise Home and Progress (which
+        // each run their own independent simulation) can show different numbers for the same data.
+        random: Random = Random(seedFor(accuracies, rules)),
     ): Result {
         if (accuracies.size < rules.maxQuestions) return Result(confidencePercent = 0, weakestCategories = emptyList())
 
@@ -49,5 +52,14 @@ object ReadinessEstimator {
             .map { it.key }
 
         return Result(confidencePercent = (passes * 100) / SIMULATIONS, weakestCategories = weakestCategories)
+    }
+
+    private fun seedFor(accuracies: List<QuestionAccuracy>, rules: ExamRules): Long {
+        var seed = rules.maxQuestions.toLong() * 31 + rules.passThreshold * 31 + rules.failThreshold
+        for (q in accuracies) {
+            seed = seed * 31 + q.category.hashCode()
+            seed = seed * 31 + (q.probability?.hashCode() ?: -1)
+        }
+        return seed
     }
 }

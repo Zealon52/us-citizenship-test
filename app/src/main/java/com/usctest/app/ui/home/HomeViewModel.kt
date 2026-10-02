@@ -9,6 +9,8 @@ import com.usctest.app.data.model.TestVersion
 import com.usctest.app.domain.ExamFormat
 import com.usctest.app.domain.TestVersionResolver
 import com.usctest.app.ui.common.today
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -39,26 +41,34 @@ class HomeViewModel(
      * since this ViewModel instance survives that round trip and won't otherwise pick up changes. */
     fun refresh() {
         viewModelScope.launch {
-            val settings = settingsRepository.settings.first()
-            val profile = settingsRepository.profile.first()
-            val version = TestVersionResolver.resolve(settings, profile.filingDate)
+            coroutineScope {
+                val settingsDeferred = async { settingsRepository.settings.first() }
+                val profileDeferred = async { settingsRepository.profile.first() }
+                val settings = settingsDeferred.await()
+                val profile = profileDeferred.await()
+                val version = TestVersionResolver.resolve(settings, profile.filingDate)
+                val rules = ExamFormat.rulesFor(version)
 
-            val confidence = progressRepository.getConfidenceEstimate(version, ExamFormat.rulesFor(version))
-            val totalQuestionCount = questionRepository.getQuestions(version).size
-            val missedQuestionCount = progressRepository.getMissedQuestionIds(version).size
+                // Independent reads (two Room queries + a Monte Carlo simulation) run concurrently
+                // instead of sequentially -- this is what caused the countdown/ring to visibly lag
+                // behind the rest of Home, which renders immediately from static defaults.
+                val confidenceDeferred = async { progressRepository.getConfidenceEstimate(version, rules) }
+                val totalQuestionCountDeferred = async { questionRepository.getQuestions(version).size }
+                val missedQuestionCountDeferred = async { progressRepository.getMissedQuestionIds(version).size }
 
-            val daysUntilTest = profile.testDate?.let { it.toEpochDays() - today().toEpochDays() }
+                val daysUntilTest = profile.testDate?.let { it.toEpochDays() - today().toEpochDays() }
 
-            _uiState.value = HomeUiState(
-                greetingName = profile.name,
-                daysUntilTest = daysUntilTest,
-                confidencePercent = confidence.confidencePercent,
-                activeTestVersion = version,
-                totalQuestionCount = totalQuestionCount,
-                practiceQuestionCount = settings.practiceQuestionCount,
-                missedQuestionCount = missedQuestionCount,
-                isLoading = false,
-            )
+                _uiState.value = HomeUiState(
+                    greetingName = profile.name,
+                    daysUntilTest = daysUntilTest,
+                    confidencePercent = confidenceDeferred.await().confidencePercent,
+                    activeTestVersion = version,
+                    totalQuestionCount = totalQuestionCountDeferred.await(),
+                    practiceQuestionCount = settings.practiceQuestionCount,
+                    missedQuestionCount = missedQuestionCountDeferred.await(),
+                    isLoading = false,
+                )
+            }
         }
     }
 }
