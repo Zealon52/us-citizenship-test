@@ -62,6 +62,7 @@ fun SettingsScreen(
     settingsRepository: SettingsRepository,
     officialsRepository: OfficialsRepository,
     progressRepository: ProgressRepository,
+    onOpenWalkthrough: () -> Unit,
 ) {
     val viewModel = rememberViewModel { SettingsViewModel(settingsRepository, officialsRepository, progressRepository) }
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -216,6 +217,15 @@ fun SettingsScreen(
                     label = "Check for content updates",
                     value = uiState.contentUpdateMessage ?: "Tap to check",
                     onClick = viewModel::checkForContentUpdates,
+                )
+            }
+
+            SettingsSection(title = "Help") {
+                SettingsRow(
+                    label = "Replay tutorial",
+                    value = "",
+                    onClick = onOpenWalkthrough,
+                    showTopDivider = false,
                 )
             }
 

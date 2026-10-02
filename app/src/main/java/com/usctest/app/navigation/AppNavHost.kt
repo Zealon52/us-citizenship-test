@@ -195,6 +195,7 @@ fun AppNavHost(appContainer: AppContainer) {
                     settingsRepository = appContainer.settingsRepository,
                     officialsRepository = appContainer.officialsRepository,
                     progressRepository = appContainer.progressRepository,
+                    onOpenWalkthrough = { navController.navigate(Routes.WALKTHROUGH) },
                 )
             }
             composable(
